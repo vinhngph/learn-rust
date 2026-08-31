@@ -1,3 +1,3 @@
 # Learn Rust
 
-**Progress: 2/12**
+**Progress: 3/12**
