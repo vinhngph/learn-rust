@@ -1,3 +1,3 @@
 # Learn Rust
 
-**Progress: 5/12**
+**Progress: 5/21**
