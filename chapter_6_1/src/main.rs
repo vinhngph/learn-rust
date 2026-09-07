@@ -10,6 +10,7 @@ struct IpAddr {
     address: String,
 }
 
+#[derive(Debug)]
 enum IpAddress {
     V4(String),
     V6(String),
@@ -22,6 +23,6 @@ fn main() {
     };
     println!("{home:#?}");
 
-    let loopback = IpAddress(String::from("::1"));
+    let loopback = IpAddress::V6(String::from("::1"));
     println!("{loopback:#?}");
 }
